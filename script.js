@@ -1,18 +1,18 @@
 // Product Data
 const productsCatalog = [
     { id: 1, name: "Aurora Necklace", price: 89, priceStr: "$89", image: "https://images.pexels.com/photos/1456690/pexels-photo-1456690.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Gold-plated chain with moonstone pendant. Elegant and timeless." },
-    { id: 2, name: "Onyx Stackable Rings", price: 49, priceStr: "$49", image: "https://images.pexels.com/photos/1190957/pexels-photo-1190957.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Set of 3 adjustable rings, black onyx. Modern minimalist style." },
-    { id: 3, name: "Luna Hoop Earrings", price: 59, priceStr: "$59", image: "https://images.pexels.com/photos/1456691/pexels-photo-1456691.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "14k gold filled, timeless huggie hoops. Daily essential." },
-    { id: 4, name: "Celeste Bracelet", price: 69, priceStr: "$69", image: "https://images.pexels.com/photos/1487152/pexels-photo-1487152.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Pearl and chain adjustable bracelet. Delicate and chic." },
-    { id: 5, name: "Donia Signature Bangle", price: 119, priceStr: "$119", image: "https://images.pexels.com/photos/1503827/pexels-photo-1503827.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Hand-engraved with semi-precious stones. Statement piece." }
+    { id: 2, name: "Onyx Stackable Rings", price: 49, priceStr: "$49", image: "Media/Onyx Stackable Rings.jpg", desc: "Set of 3 adjustable rings, black onyx. Modern minimalist style." },
+    { id: 3, name: "Luna Hoop Earrings", price: 59, priceStr: "$59", image: "Media/Luna Hoop Earrings.jpg", desc: "14k gold filled, timeless huggie hoops. Daily essential." },
+    { id: 4, name: "Celeste Bracelet", price: 69, priceStr: "$69", image: "Media/bracelet.jpg", desc: "Pearl and chain adjustable bracelet. Delicate and chic." },
+    { id: 5, name: "Donia Signature Bangle", price: 119, priceStr: "$119", image: "Media/Donia Signature Bangle.jpg", desc: "Hand-engraved with semi-precious stones. Statement piece." }
 ];
 
 const accessoriesCatalog = [
-    { id: 101, name: "Luxury Silk Scarf", price: 45, priceStr: "$45", image: "https://images.pexels.com/photos/3256824/pexels-photo-3256824.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Hand-rolled edges, elegant floral print. 100% pure silk." },
+    { id: 101, name: "Luxury Silk Scarf", price: 45, priceStr: "$45", image: "Media/Silk Scarf.jpg", desc: "Hand-rolled edges, elegant floral print. 100% pure silk." },
     { id: 102, name: "Leather Cuff Watch", price: 79, priceStr: "$79", image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Minimalist genuine leather strap. Classic timeless design." },
-    { id: 103, name: "Pearl Hair Clips Set", price: 28, priceStr: "$28", image: "https://images.pexels.com/photos/1435653/pexels-photo-1435653.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Gold & pearl hair clips (set of 3). Vintage inspired beauty." },
-    { id: 104, name: "Designer Sunglasses", price: 99, priceStr: "$99", image: "https://images.pexels.com/photos/2934367/pexels-photo-2934367.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Retro cat-eye, UV400 protection. Made for sunshine days." },
-    { id: 105, name: "Cashmere Beanie", price: 55, priceStr: "$55", image: "https://images.pexels.com/photos/2891408/pexels-photo-2891408.jpeg?auto=compress&cs=tinysrgb&w=600", desc: "Soft cashmere, winter essential. Cozy and warm elegance." }
+    { id: 103, name: "Pearl Hair Clips Set", price: 28, priceStr: "$28", image: "Media/Pearl Hair Clips Set.jpg", desc: "Gold & pearl hair clips (set of 3). Vintage inspired beauty." },
+    { id: 104, name: "Designer Sunglasses", price: 99, priceStr: "$99", image: "Media/Designer Sunglasses.jpg", desc: "Retro cat-eye, UV400 protection. Made for sunshine days." },
+    { id: 105, name: "Cashmere Beanie", price: 55, priceStr: "$55", image: "Media/Cashmere Beanie.webp", desc: "Soft cashmere, winter essential. Cozy and warm elegance." }
 ];
 
 const allItems = [...productsCatalog, ...accessoriesCatalog];
