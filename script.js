@@ -267,7 +267,7 @@ function sendOrderViaWhatsApp(e) {
     orderDetails += `━━━━━━━━━━━━━━━━━━\n💰 *TOTAL: $${total}*\n`;
 
     
-    const whatsappNumber = "256765673373";
+    const whatsappNumber = "+211922479505";
     const encodedMsg = encodeURIComponent(orderDetails);
     window.open(`https://wa.me/${whatsappNumber}?text=${encodedMsg}`, '_blank');
     
